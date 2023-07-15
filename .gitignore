@@ -1,0 +1,6 @@
+.idea
+/logs
+/static
+__pycache__
+/bin
+.DS_Store

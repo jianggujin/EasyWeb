@@ -1,0 +1,18 @@
+[server]
+port = 8080 # server port
+static = "static/" # static file dir
+# custom mine types
+#mine_type = { "ddd" = "text/png" }
+#[server.mine_type]
+#ddd = "image/png"
+
+[advanced]
+log_file = "easy-web"
+log_level = "info" # debug, info or warn
+# maximum retention days of logs, 0 means without cleaning up
+log_max_history = 7
+# log file store dir
+log_dir = "logs"
+# single: do not split log files.
+# rolling: generate a log file every day.
+log_mode = "rolling"
